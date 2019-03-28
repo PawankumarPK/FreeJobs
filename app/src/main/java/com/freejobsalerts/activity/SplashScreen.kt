@@ -36,7 +36,7 @@ class SplashScreen : AppCompatActivity() {
         myThread.start()
 
         /* Animation anim = AnimationUtils.loadAnimation(getApplicationContext(), R.animator.anim);
-        logo.setAnimation(anim);
+        logo.setAnimation(anim);mm
 */
 
 
