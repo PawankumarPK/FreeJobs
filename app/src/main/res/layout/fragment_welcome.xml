@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".fragment.Welcome">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/mToolBarProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <RelativeLayout
+                        android:id="@+id/mVisitSiteBackButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@drawable/left_arrow"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Welcome"
+                            android:textColor="#fff"
+                            android:textSize="20sp"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <TextView
+                android:id="@+id/mWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/mToolBarProfile"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"/>
+
+
+
+        <TextView
+                android:id="@+id/mWhatsNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/whatsnew"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_below="@+id/mWelcome"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"/>
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/available"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/mWhatsNew"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"/>
+    </RelativeLayout>
+
+</ScrollView>
