@@ -47,7 +47,7 @@ class AdmitCard : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         mainActivity = activity as MainActivity
-        mainActivity.mRelativeLayoutOne.visibility = View.GONE
+        //mainActivity.mRelativeLayoutOne.visibility = View.GONE
 
 
         webView.setOnKeyListener(object : View.OnKeyListener {

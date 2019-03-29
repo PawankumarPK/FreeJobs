@@ -7,4 +7,8 @@
 
     <string name="whatsnew">Whats New:</string>
     <string name="available">FreeJobs Alert Co. homepage are available in your app</string>
+    <string name="Exit">Exit</string>
+    <string name="areYouSure">Are you sure you want to EXIT </string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
 </resources>

@@ -42,7 +42,7 @@ class PrivacyPolicy : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         mainActivity = activity as MainActivity
-        mainActivity.mRelativeLayoutOne.visibility = View.GONE
+       // mainActivity.mRelativeLayoutOne.visibility = View.GONE
 
         webView.setOnKeyListener(object : View.OnKeyListener {
 
