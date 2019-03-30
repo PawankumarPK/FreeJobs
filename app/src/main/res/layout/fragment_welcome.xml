@@ -53,13 +53,12 @@
         </android.support.v7.widget.Toolbar>
 
 
-
         <TextView
                 android:id="@+id/mWelcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/welcome"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_margin="10dp"
                 android:layout_below="@+id/mToolBarProfile"
                 android:textColor="@color/black"

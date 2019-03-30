@@ -31,176 +31,173 @@
 
         </RelativeLayout>
 
-
-        <Button
-                android:id="@+id/mWelcome"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:padding="20dp"
-                android:layout_below="@+id/mRelativeLayoutOne"
-                android:background="@drawable/color_button_gradient"
-                android:text="Welcome"
-                android:textSize="18sp"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_below="@+id/mRelativeLayoutOne">
 
 
-        <Button
-                android:id="@+id/mHomePage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:textSize="18sp"
-                android:padding="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_below="@+id/mWelcome"
-                android:background="@drawable/color_button_gradient"
-                android:text="Home Page"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+            <Button
+                    android:id="@+id/mWelcome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="20dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Welcome"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
 
 
-        <Button
-                android:id="@+id/mYoutube"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_marginTop="10dp"
-                android:layout_below="@+id/mHomePage"
-                android:background="@drawable/color_button_gradient"
-                android:text="Youtube Videos"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+            <Button
+                    android:id="@+id/mHomePage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Home Page"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
+
+            <Button
+                    android:id="@+id/mLatestJob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Latest Job"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
+
+            <Button
+                    android:id="@+id/mAdmitCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Admit Card"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
+
+            <Button
+                    android:id="@+id/mLatestResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Latest Result"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
 
 
-        <Button
-                android:id="@+id/mAdmitCard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_marginRight="20dp"
-                android:layout_below="@+id/mYoutube"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/color_button_gradient"
-                android:text="Admit Card"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+            <Button
+                    android:id="@+id/mYoutube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Youtube Videos"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
 
 
-        <Button
-                android:id="@+id/mLatestJob"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_marginRight="20dp"
-                android:layout_below="@+id/mAdmitCard"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/color_button_gradient"
-                android:text="Latest Job"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
-        <Button
-                android:id="@+id/mLatestResult"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_marginRight="20dp"
-                android:layout_below="@+id/mLatestJob"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/color_button_gradient"
-                android:text="Latest Result"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+            <Button
+                    android:id="@+id/mPrivacyPolicy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Privacy Policy"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
+
+            <Button
+                    android:id="@+id/rateApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Rate Now"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
+
+            <Button
+                    android:id="@+id/mShareNow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/color_button_gradient"
+                    android:text="Share Now"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"/>
 
 
-
-        <Button
-                android:id="@+id/mPrivacyPolicy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_below="@+id/mLatestResult"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/color_button_gradient"
-                android:text="Privacy Policy"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
-
-
-
-        <Button
-                android:id="@+id/mShareNow"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:padding="20dp"
-                android:textSize="18sp"
-                android:layout_marginRight="20dp"
-                android:layout_below="@+id/mPrivacyPolicy"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/color_button_gradient"
-                android:text="Share Now"
-                android:textAllCaps="false"
-                android:textColor="#fff"/>
+            <!-- <TextView
+                     android:id="@+id/mRateAppText"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="How do you rate our app ?"
+                     android:layout_below="@+id/mShareNow"
+                     android:textSize="18sp"
+                     android:textColor="@color/black"
+                     android:gravity="center_horizontal"/>
+     -->
+            <!--<RatingBar
+                    android:id="@+id/rateApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/mRateAppText"
+                    android:numStars="5"
+                    android:rating="3.5"/>-->
 
 
-       <!-- <TextView
-                android:id="@+id/mRateAppText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="How do you rate our app ?"
-                android:layout_below="@+id/mShareNow"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:gravity="center_horizontal"/>
--->
-        <!--<RatingBar
-                android:id="@+id/rateApp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_below="@+id/mRateAppText"
-                android:numStars="5"
-                android:rating="3.5"/>-->
-
-        <Button
-               android:id="@+id/rateApp"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_marginBottom="20dp"
-               android:layout_marginLeft="20dp"
-               android:padding="20dp"
-               android:layout_marginRight="20dp"
-               android:layout_below="@+id/mPrivacyPolicy"
-               android:layout_marginTop="10dp"
-               android:textSize="18sp"
-               android:background="@drawable/color_button_gradient"
-               android:text="Rate Now"
-               android:textAllCaps="false"
-               android:textColor="#fff"/>
+        </LinearLayout>
 
 
     </RelativeLayout>

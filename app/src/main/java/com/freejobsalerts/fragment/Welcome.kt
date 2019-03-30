@@ -2,13 +2,12 @@ package com.freejobsalerts.fragment
 
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.freejobsalerts.R
 import com.freejobsalerts.activity.MainActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_welcome.*
 
 class Welcome : BaseFragment() {
 
@@ -21,8 +20,13 @@ class Welcome : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         mainActivity = activity as MainActivity
-       // mainActivity.mRelativeLayoutOne.visibility = View.GONE
+        mVisitSiteBackButton.setOnClickListener { mVisitSiteBackButtonFunction() }
+        // mainActivity.mRelativeLayoutOne.visibility = View.GONE
     }
 
+    private fun mVisitSiteBackButtonFunction() {
+        fragmentManager!!.beginTransaction().replace(R.id.mFrameContainer, Home())
+            .addToBackStack(null).commit()
+    }
 
 }
