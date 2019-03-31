@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         val layout = LayoutInflater.from(this).inflate(R.layout.dialog_logout, null, false)
         layout.minimumWidth = width
         dialog.setContentView(layout)
-        dialog.buttonLogout.setOnClickListener { finish() }
+        dialog.buttonLogout.setOnClickListener { finish()}
         dialog.mRate.setOnClickListener { ratingListener() }
         dialog.mCancelDialog.setOnClickListener { dialog.dismiss() }
         dialog.setCanceledOnTouchOutside(false)
