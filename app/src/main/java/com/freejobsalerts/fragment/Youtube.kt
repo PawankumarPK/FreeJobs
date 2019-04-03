@@ -118,4 +118,15 @@ class Youtube : BaseFragment() {
         fragmentManager!!.beginTransaction().replace(R.id.mFrameContainer, Home())
             .addToBackStack(null).commit()
     }
+
+    public override fun onPause() {
+        super.onPause()
+        webView.onPause()
+    }
+
+    public override fun onResume() {
+        super.onResume()
+        webView.onResume()
+    }
+
 }

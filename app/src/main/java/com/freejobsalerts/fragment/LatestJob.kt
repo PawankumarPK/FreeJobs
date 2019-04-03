@@ -123,4 +123,5 @@ class LatestJob : BaseFragment() {
             .addToBackStack(null).commit()
     }
 
+
 }

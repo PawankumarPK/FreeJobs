@@ -14,6 +14,7 @@ import com.freejobsalerts.R
 import com.freejobsalerts.fragment.Home
 import kotlinx.android.synthetic.main.dialog_logout.*
 
+
 class MainActivity : AppCompatActivity() {
 
     private val displayRectangle = Rect()
@@ -87,5 +88,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }*/
+
 
 }
